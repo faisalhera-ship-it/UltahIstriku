@@ -58,7 +58,7 @@ if not st.session_state.logged_in:
                 st.error("Kuncinya salah, Sayang...")
 else:
     # 5. Konten Utama
-    # Musik Latar (background.mp3)
+    # Musik Latar (Background.mp3)
     st.markdown(get_audio_html("background.mp3", auto_play=True), unsafe_allow_html=True)
     
     st.markdown("<h1>Happy Birthday, <br>Alifairuz Nadiah 🌸</h1>", unsafe_allow_html=True)
