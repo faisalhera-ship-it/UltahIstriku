@@ -67,7 +67,7 @@ else:
         {"img": "1.jpeg", "vo": "vo1.m4a", "txt": "Seorang wanita hebat lahir, wanita cantik dan sholehah"},
         {"img": "2.jpeg", "vo": "vo2.m4a", "txt": "Dunia membuat mu tumbuh menjadi wanita hebat."},
         {"img": "3.jpeg", "vo": "vo3.m4a", "txt": "Dunia tidak selalu indah tapi kamu berhasil melewati itu semua."},
-        {"img": "4.jpeg", "vo": "vo4.m4a", "txt": "Kamu adalah duniaku."},
+        {"img": "4.jpeg", "vo": "vo4.m4a", "txt": "Kamu adalah akhirat dan duniaku."},
         {"img": "5.jpeg", "vo": "vo5.m4a", "txt": "Terima kasih sudah memilihku."},
         {"img": "6.jpeg", "vo": "vo6.m4a", "txt": "Mari menua bersama."},
         {"img": "7.jpeg", "vo": "vo7.m4a", "txt": "I love you forever, Sayang."}
@@ -84,6 +84,6 @@ else:
 
     # Ucapan Internasional
     st.write("---")
-    st.markdown("<h3>Messages from the World</h3>", unsafe_allow_html=True)
+    st.markdown("<h3>SELAMAT ULANG TAHUN SAYANG</h3>", unsafe_allow_html=True)
     st.write("🇫🇷 Joyeux Anniversaire! | 🇰🇷 Saeng-il chukha! | 🇯🇵 Otanjoubi Omedetou!")
     st.balloons()
