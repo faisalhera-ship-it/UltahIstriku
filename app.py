@@ -5,15 +5,18 @@ import base64
 st.set_page_config(page_title="HBD Alifairuz Nadiah", layout="centered")
 
 # 2. Fungsi Audio (Base64 agar bisa autoplay)
+import os
+
 def get_audio_html(file_path, auto_play=False):
-    try:
+    # Mencari lokasi file yang benar di server
+    if os.path.exists(file_path):
         with open(file_path, "rb") as f:
             data = f.read()
             b64 = base64.b64encode(data).decode()
             return f'<audio {"autoplay" if auto_play else ""} controls style="width:100%; margin-bottom: 20px;"><source src="data:audio/mp3;base64,{b64}" type="audio/mp3"></audio>'
-    except:
-        return "<p style='color:red;'>File audio tidak ditemukan</p>"
-
+    else:
+        # Jika tidak ketemu, tampilkan pesan error yang lebih detail untuk debug
+        return f"<p style='color:red;'>File {file_path} tidak ditemukan di server</p>"
 # 3. CSS & Auto-Scroll Script (SUDAH DIPERBAIKI TANDA KUTIPNYA)
 st.markdown("""
     <style>
