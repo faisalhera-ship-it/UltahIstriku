@@ -85,5 +85,5 @@ else:
     # Ucapan Internasional
     st.write("---")
     st.markdown("<h3>SELAMAT ULANG TAHUN SAYANG</h3>", unsafe_allow_html=True)
-    st.write("🇫🇷 Joyeux Anniversaire! | 🇰🇷 Saeng-il chukha! | 🇯🇵 Otanjoubi Omedetou!")
+    st.write("Dari suamimu yang tercinta, hadiah selanjutnya di Kalimantan aja ya :p")
     st.balloons()
